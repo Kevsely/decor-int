@@ -1,0 +1,8 @@
+.carousel-control-prev, .carousel-control-next {
+    z-index: 100;
+    width: 5%;
+}
+
+.panorama_slider2 {
+    height: 50%;
+}
