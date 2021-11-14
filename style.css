@@ -15,5 +15,9 @@
 
 /* Diapo not take 100% of the screen */
 .panorama-slider2 {
-    height: 90vh;
+    height: 90vh!important;
+}
+
+.panorama-slider2 * {
+    max-height: 90vh!important;
 }
