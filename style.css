@@ -1,8 +1,19 @@
+/* Navbar */
+.navbar {
+    --bs-bg-opacity: .25;
+}
+
+.navbar.nav-expanded {
+    background-color: rgb(0, 0, 0)!important;
+}
+
+/* Diapo control */
 .carousel-control-prev, .carousel-control-next {
     z-index: 100;
     width: 5%;
 }
 
-.panorama_slider2 {
-    height: 50%;
+/* Diapo not take 100% of the screen */
+.panorama-slider2 {
+    height: 90vh;
 }
