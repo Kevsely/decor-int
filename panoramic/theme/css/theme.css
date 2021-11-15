@@ -5081,7 +5081,7 @@ panorama-slider2
 }
 
 .panorama-slider2__subtitle {
-  font-size: 20px;
+  font-size: 1rem!important;
   margin-bottom: 20px !important;
 }
 
@@ -5100,7 +5100,7 @@ panorama-slider2
 
 .panorama-slider2__title {
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 120px;
+  font-size: 5rem!important;
   line-height: 0.875;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -5156,8 +5156,8 @@ panorama-slider2
   border: none;
   cursor: pointer;
   font-family: 'Teko', Helvetica, sans-serif;
-  font-size: 30px;
-  line-height: 1.4;
+  font-size: 1rem!important;
+  line-height:200%!important;
 }
 
 .panorama-slider2__link:after {
