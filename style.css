@@ -10,6 +10,10 @@ body {
 }
 
 /* Navbar */
+.container-fluid {
+    width: 75%;
+}
+
 .navbar {
     --bs-bg-opacity: .50;
 
