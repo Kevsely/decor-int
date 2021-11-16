@@ -12,4 +12,4 @@ toggleButton.addEventListener('click', ()=> {
 
 //Panoramic Diaporama
 var nextButton = document.getElementsByClassName("carousel-control-next revolution-next")[0];
-setInterval(()=>nextButton.click(), 20000);
+setInterval(()=>nextButton.click(), 200000);
