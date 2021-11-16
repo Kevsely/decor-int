@@ -19,6 +19,7 @@ body {
 
 .navbar {
     --bs-bg-opacity: .50;
+    box-shadow: 0 0 5px #f24a00;
 }
 
 .nav-link {
