@@ -1,3 +1,6 @@
+//Making navbar opaque while scrolling
+
+
 //Change navbar expanded bg color
 var navbar = document.getElementsByClassName("navbar navbar-expand-sm fixed-top")[0];
 var toggleButton = document.getElementsByClassName("navbar-toggler")[0];

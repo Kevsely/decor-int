@@ -1,7 +1,35 @@
+/* General settings */
+html {
+    width: 100%;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
 /* Navbar */
 .navbar {
-    --bs-bg-opacity: .25;
+    --bs-bg-opacity: .50;
+
 }
+
+.nav-link {
+    margin-left: 5px;
+    transition: color 1s ease;
+}
+
+.nav-link:hover {
+    border: solid 0.1px;
+    color: white!important;
+    border-color: #f24a00;
+}
+
+.nav-link.active {
+    background-color: #f24a00!important;
+}
+
 
 .navbar.nav-expanded {
     background-color: rgb(0, 0, 0)!important;
@@ -16,7 +44,7 @@
 }
 
 /* Diapo not take 100% of the screen */
-.panorama-slider2 {
+/* .panorama-slider2 {
     height: 90vh!important;
 }
 
@@ -26,7 +54,7 @@
 
 .slotholder canvas {
     height: 100%!important;
-}
+} */
 
 /* Diapo annotation text */
 
