@@ -44,7 +44,6 @@ body {
 
 /* Diaporama of Panorama */
 
-
 /* Diapo control */
 
 .carousel-control-prev,
@@ -71,7 +70,12 @@ body {
 
 
 /* Diapo annotation text */
-
+.hero-text {
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1%;
+    border-radius: 20px;
+}
 
 /* Animated scrolling down arrow */
 
