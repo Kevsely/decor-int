@@ -3,4 +3,8 @@
     .container-fluid {
         width: 100%;
     }
+
+    .nav-link {
+        padding-left: 10px!important;
+    }
  }
