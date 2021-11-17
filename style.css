@@ -6,20 +6,20 @@ html {
 
 body {
     min-height: 100vh;
-    max-width: 80%;
     margin: 0 auto;
 }
 
 section {
-    position: absolute;
-    left: 0;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 100%;
+    width: 100%!important;
     display: flex;
     justify-content: center;
 }
 
+section:nth-child(even) {
+    background-color: rgb(83, 83, 83)!important;
+}
 
 /* Navbar */
 
@@ -125,7 +125,10 @@ body {
 }
 
 /* Bullet points */
-#bullet .row {
+#bullet-point {
+}
+
+#bullet-point .row {
     width: 80%!important;
     margin: 0 0 0 0!important;
 }
@@ -138,4 +141,20 @@ body {
 
 .card-body {
     background-color: rgba(0, 0, 0, 0);
+}
+
+/* How it works */
+#howitworks {
+    height: 50vh;
+    z-index: 500000;
+}
+
+section > div {
+    height: 100%;
+}
+
+/* What I get */
+
+#whatiget {
+    height: 50vh;
 }
