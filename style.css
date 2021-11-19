@@ -194,7 +194,13 @@ body {
 
 /* Our offers */
 #offers {
+    height: 90vh;
     background-image: url('img/offers_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
