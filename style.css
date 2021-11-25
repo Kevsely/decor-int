@@ -226,17 +226,21 @@ body {
 /*        Our works           */
 /*///////////////////////////////////*/
 #works {
-    height: 100vh!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
     overflow: hidden;
 }
 
-div.carousel-inner {
-    display: block;
-    height: 70%!important;
-    width: auto!important;
+section div.carousel {
+    height: 90vh;
+    width: 90vw;
 }
 
 div.carousel-inner img {
-    width: 160vh!important;
-    height: 100%!important;
+    height: 90vh;
+    width: 100%;
+    object-fit: fill;
 }
