@@ -44,7 +44,7 @@ main {
 }
 
 .counter-block__card {
-  background-image: url("../../assets/img/dot-dark.jpg");
+  background-image: url("../../../img/dot-dark.jpg");
   background-color: #242323;
 }
 
