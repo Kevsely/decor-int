@@ -5,10 +5,12 @@ General settings
 html {
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
+    min-height: 100vh;
     max-width: 100vw;
     margin: 0;
 
@@ -22,7 +24,7 @@ section {
 }
 
 section:nth-child(even) {
-    background-color: rgba(36, 36, 36, 0.5)!important;
+    background-color: rgba(36, 36, 36, 0.5);
 }
 
 /*//////////////////////////////////////////////////////
@@ -34,7 +36,7 @@ NavBar
 }
 
 .navbar {
-    --bs-bg-opacity: .50;
+    --bs-bg-opacity: .95;
     box-shadow: 0 0 5px #f24a00;
 }
 
@@ -57,20 +59,18 @@ NavBar
     background-color: rgb(0, 0, 0)!important;
 }
 
-/*///////////////////////////////////*/
-/*        Diaporama of Panorama           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Diaporam of Panorama
+/////////////////////////////////////////////////////*/
+
 #panorama_slider {
     padding: 0;
+    height: 95vh;
 }
 
 #panorama_slider iframe.ku-embed {
     height: 100%;
     width: 100%;
-}
-
-div.contact-card a img {
-    display: none;
 }
 
 /* Animated scrolling down arrow */
@@ -91,10 +91,10 @@ div.contact-card a img {
 }
 
 .arrow {
-    z-index: 25;
+    z-index: 2;
     position: absolute!important;
     bottom: 5%;
-    left: 50%;
+    left: 25%;
     margin-left: -20px;
     width: 40px;
     height: 40px;
@@ -102,14 +102,20 @@ div.contact-card a img {
     background-size: contain;
 }
 
+.arrow.right {
+    left: 75%;
+}
+
 .bounce {
     animation: bounce 2s infinite;
 }
 
-/*///////////////////////////////////*/
-/*        Bullet points             */
-/*///////////////////////////////////*/
-
+/*//////////////////////////////////////////////////////
+Bullet point
+/////////////////////////////////////////////////////*/
+#bulletPoints {
+    background-color: black;
+}
 .card {
     border-color: #f24a00;
     background-color: rgba(0, 0, 0, 0);
@@ -120,9 +126,9 @@ div.contact-card a img {
     background-color: rgba(0, 0, 0, 0);
 }
 
-/*///////////////////////////////////*/
-/*        How it works               */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+How it works
+/////////////////////////////////////////////////////*/
 
 /* #howitworks {
     height: 80vh;
@@ -175,18 +181,18 @@ div.contact-card a img {
     bottom: 90%;
 }
 
-/*///////////////////////////////////*/
-/*        What I get             */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+What I get
+/////////////////////////////////////////////////////*/
 
 #whatiget h2 {
     margin-left: 3%;
     margin-bottom: 25px;
 }
 
-/*///////////////////////////////////*/
-/*        Our offers                */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Our offer
+/////////////////////////////////////////////////////*/
 
 #offers {
     height: 90vh;
@@ -200,9 +206,10 @@ div.contact-card a img {
     align-items: center;
 }
 
-/*///////////////////////////////////*/
-/*        Our works           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Our work
+/////////////////////////////////////////////////////*/
+
 #works {
     display: flex;
     justify-content: center;
@@ -231,9 +238,9 @@ div.carousel-inner img {
     object-fit: fill;
 }
 
-/*///////////////////////////////////*/
-/*        Our clients           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Our clients
+/////////////////////////////////////////////////////*/
 
 #clients {
     height: 100vh;
@@ -307,13 +314,13 @@ div.carousel-inner img {
     line-height: 1.4em;
 }
 
-/*///////////////////////////////////*/
-/*        Our history           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Our history
+/////////////////////////////////////////////////////*/
 
-/*///////////////////////////////////*/
-/*        Testimony           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Testimony
+/////////////////////////////////////////////////////*/
  
 #testimony {
     height: 100vh;
@@ -399,9 +406,9 @@ div.carousel-inner img {
     color: #696d74;
 }
 
-/*///////////////////////////////////*/
-/*        Our providers                */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Our provider
+/////////////////////////////////////////////////////*/
 
 #providers {
     height: 90vh;
@@ -415,24 +422,9 @@ div.carousel-inner img {
     align-items: center;
 }
 
-/*///////////////////////////////////*/
-/*        blog                */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+Blog
+/////////////////////////////////////////////////////*/
 
-@media screen and (max-width: 1050px) {
-    .container-fluid {
-        width: 100%;
-    }
 
-    .body {
-        max-width: 100%;
-    }
 
-    .nav-link {
-        padding-left: 10px!important;
-    }
-
-    .hero-text {
-        width: 90%;
-    }
- }
