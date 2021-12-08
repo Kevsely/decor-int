@@ -332,6 +332,14 @@ div.carousel-inner img {
 /*///////////////////////////////////*/
 /*        Our history           */
 /*///////////////////////////////////*/
+#secondPano {
+    height: 100vh;
+}
+
+#secondPano iframe {
+    width: 80%;
+    height: 90%;
+}
 
 /*///////////////////////////////////*/
 /*        Testimony           */
