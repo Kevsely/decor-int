@@ -1,30 +1,33 @@
-/*///////////////////////////////////*/
-/*        General settings           */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+General settings
+/////////////////////////////////////////////////////*/
 
 html {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     overflow-x: hidden;
 }
 
 body {
-    min-height: 100vh;
-    max-width: 100%;
-    margin: 0 0;
+    height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+
+    color: white;
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
+    height: 100%;
+    width: 100%;
 }
 
 section:nth-child(even) {
     background-color: rgba(36, 36, 36, 0.5)!important;
 }
 
-/*///////////////////////////////////*/
-/*               Navbar             */
-/*///////////////////////////////////*/
+/*//////////////////////////////////////////////////////
+NavBar
+/////////////////////////////////////////////////////*/
 
 .container-fluid {
     width: 75%;
@@ -57,38 +60,17 @@ section:nth-child(even) {
 /*///////////////////////////////////*/
 /*        Diaporama of Panorama           */
 /*///////////////////////////////////*/
-
-/* Diapo control */
-
-.carousel-control-prev,
-.carousel-control-next {
-    z-index: 100;
-    width: 5%;
+#panorama_slider {
+    padding: 0;
 }
 
-
-/* Diapo not take 100% of the screen */
-.panorama-slider2 {
-    height: 100vh!important;
+#panorama_slider iframe.ku-embed {
+    height: 100%;
+    width: 100%;
 }
 
-
-.panorama-slider2 * {
-    max-height: 100vh!important;
-}
-
-/* .slotholder canvas {
-    height: 100%!important;
-} */
-
-
-/* Diapo annotation text */
-.hero-text {
-    width: 75%;
-    z-index: 20;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 1%;
-    border-radius: 20px;
+div.contact-card a img {
+    display: none;
 }
 
 /* Animated scrolling down arrow */
@@ -106,10 +88,6 @@ section:nth-child(even) {
     60% {
         transform: translateY(-15px);
     }
-}
-
-body {
-    background: black;
 }
 
 .arrow {
@@ -440,3 +418,21 @@ div.carousel-inner img {
 /*///////////////////////////////////*/
 /*        blog                */
 /*///////////////////////////////////*/
+
+@media screen and (max-width: 1050px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .body {
+        max-width: 100%;
+    }
+
+    .nav-link {
+        padding-left: 10px!important;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+ }

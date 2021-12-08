@@ -7,8 +7,7 @@ toggleButton.addEventListener('click', ()=> {
 })
 
 //Panoramic Diaporama
-var nextButton = document.getElementsByClassName("carousel-control-next revolution-next")[0];
-setInterval(()=>nextButton.click(), 20000);
+
 
 //Testimony vertical slider
 var cards = Array.from(document.querySelectorAll('#card-slider .slider-item'));
