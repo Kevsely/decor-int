@@ -116,14 +116,21 @@ Bullet point
 #bulletPoints {
     background-color: black;
 }
+
 .card {
     border-color: #f24a00;
     background-color: rgba(0, 0, 0, 0);
     height: 100%;
 }
 
+.card img {
+    width: 5rem;
+    margin: 1rem auto;
+}
+
 .card-body {
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0); */
+    text-align: center;
 }
 
 /*//////////////////////////////////////////////////////
