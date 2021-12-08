@@ -420,3 +420,23 @@ div.carousel-inner img {
     text-transform: uppercase;
     color: #696d74;
 }
+
+/*///////////////////////////////////*/
+/*        Our providers                */
+/*///////////////////////////////////*/
+
+#providers {
+    height: 90vh;
+    background-image: url('img/offers_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*///////////////////////////////////*/
+/*        blog                */
+/*///////////////////////////////////*/
