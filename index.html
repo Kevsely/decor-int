@@ -10,25 +10,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!--Revolution Style Sheets-->
-    <link href="panoramic/revolution/css/settings.css" rel="stylesheet">
-    <link href="panoramic/revolution/css/layers.css" rel="stylesheet">
-
-    <!--Panorama Add-On Files-->
-    <link href="panoramic/panorama/css/revolution.addon.panorama.css" rel="stylesheet">
-
-    <!--Theme CSS-->
-    <link href="panoramic/theme/css/theme.css" rel="stylesheet">
-    <link href="panoramic/theme/css/responsive.css" rel="stylesheet">
-    <link href="panoramic/theme/css/dark.css" rel="stylesheet">
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsible-style.css">
 
     <title>Decor-Int</title>
 </head>
@@ -62,48 +48,10 @@
     </nav>
 
     <!-- 3D Slide + Text (Slide #1) -->
-    <div class="panorama-slider2">
-        <div class="revolution-slider">
-            <div class="revolution-slider__slider rev rev_slider fullwidthabanner false" data-version="5.4.6"
-                style="display:none;">
-                <ul>
-                    <!-- Slide 1 -->
-                    <li
-                        data-panorama='{"image":"img/panorama/1.jpg","autoplay":"true","mousewheelZoom":"false","smoothZoom":"true","autoplayDirection":"forward","controls":"throw","autoplaySpeed":"80","throwSpeed":"750","zoomMin":"75","zoomMax":"150","cameraFov":"75","cameraFar":"1000","sphereRadius":"100","sphereWsegments":"100","sphereHsegments":"40"}'>
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center"
-                            data-bgrepeat="no-repeat" data-lazyload="img/panorama/1.jpg" data-no-retina="" src="" />
-                    </li>
-                    <!-- Slide 2 -->
-                    <li
-                        data-panorama='{"image":"img/panorama/2.jpg","autoplay":"true","mousewheelZoom":"false","smoothZoom":"true","autoplayDirection":"forward","controls":"throw","autoplaySpeed":"80","throwSpeed":"750","zoomMin":"75","zoomMax":"150","cameraFov":"75","cameraFar":"1000","sphereRadius":"100","sphereWsegments":"100","sphereHsegments":"40"}'>
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center"
-                            data-bgrepeat="no-repeat" data-lazyload="img/panorama/2.jpg" data-no-retina="" src="" />
-                    </li>
-                    <!-- Slide 3 -->
-                    <li
-                        data-panorama='{"image":"img/panorama/3.jpg","autoplay":"true","mousewheelZoom":"false","smoothZoom":"true","autoplayDirection":"forward","controls":"throw","autoplaySpeed":"80","throwSpeed":"750","zoomMin":"75","zoomMax":"150","cameraFov":"75","cameraFar":"1000","sphereRadius":"100","sphereWsegments":"100","sphereHsegments":"40"}'>
-                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgposition="center center"
-                            data-bgrepeat="no-repeat" data-lazyload="img/panorama/3.jpg" data-no-retina="" src="" />
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="hero-text position-absolute top-50 start-50 translate-middle">
-            <h2>Etes-vous plutôt Glamour, Moderne ou Rustique ? Créons ensemble votre décoration intérieure !</h2>
-            <p>Decor-Int réinvente la déco intérieure et vous permet d’explorer des
-                styles assez variés de décors pour vos locaux. Démarrons votre projet à
-                partir de 99€/pièce !</p>
-        </div>
-        <button class="carousel-control-prev revolution-prev" type="button">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next revolution-next" type="button">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">next</span>
-        </button>
+    <section id="panorama_slider">
+        <iframe class="ku-embed" frameborder="0" allowfullscreen allow="xr-spatial-tracking; gyroscope; accelerometer" scrolling="no" src="https://kuula.co/share/collection/7qL9X?logo=1&info=1&fs=0&vr=0&sd=1&autorotate=0.63&autop=10&thumbs=0"></iframe>
         <div class="arrow bounce"></div>
-    </div>
+    </section>
 
     <!-- (Slide #3) -->
     <section id="bulletpoints">
@@ -632,26 +580,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
-    <!--JS-->
-    <script src="panoramic/theme/js/jquery.min.js"></script>
-
-    <!--Revolution JS-->
-    <script src="panoramic/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="panoramic/revolution/js/jquery.themepunch.revolution.min.js"></script>
-
-    <!--Revolution Panorama Add-On JS-->
-    <script src="panoramic/panorama/js/three.min.js"></script>
-    <script src="panoramic/panorama/js/revolution.addon.panorama.min.js"></script>
-
-    <!-- Revolution Panorama extensions JS (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading)-->
-    <script src="panoramic/extensions/js/revolution.extension.slideanims.min.js"></script>
-    <script src="panoramic/extensions/js/revolution.extension.actions.min.js"></script>
-    <script src="panoramic/extensions/js/revolution.extension.layeranimation.min.js"></script>
-    <script src="panoramic/extensions/js/revolution.extension.navigation.min.js"></script>
-
-    <!--Theme JS-->
-    <script src="panoramic/theme/js/theme.js"></script>
 
     <!-- Vertical Slider -->
     <script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
