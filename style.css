@@ -1,10 +1,6 @@
 /*//////////////////////////////////////////////////////
 General settings
 /////////////////////////////////////////////////////*/
-:root {
-    --vh: 100vh;
-}
-
 html {
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
@@ -12,9 +8,8 @@ html {
 }
 
 body {
-    height: calc(var(--vh, 1vh) * 100);
-    /* min-height: 100vh; */
-    min-height: calc(var(--vh, 1vh) * 100);
+    height: 100vh;
+    min-height: 100vh;
     max-width: 100vw;
     margin: 0;
 
@@ -68,6 +63,7 @@ Diaporam of Panorama
 /////////////////////////////////////////////////////*/
 
 #panorama_slider {
+    position: relative;
     padding: 0;
     height: 95vh;
 }
@@ -453,6 +449,12 @@ Tablet
 ///////////////////////////////////////////////////////
 /////////////////////////////////////////////////////*/
 @media screen and (max-width:1200px) {
+    /* Panorama slider */
+    #panorama_slider {
+        padding: 0;
+        height: 85vh;
+    }
+    
     .container-fluid {
         width: 100%;
     }
