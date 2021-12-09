@@ -498,12 +498,23 @@ Phone
 /////////////////////////////////////////////////////*/
 @media screen and (max-width: 768px) {
     /* Bullet points */
-    .row div {
+    #bulletPoints .row div {
         width: 95%;
         margin: 1rem 0;
     }
 
-    .row div .card{
+    #bulletPoints .row div .card {
         margin: auto;
+    }
+
+    /* What I get / How it works */
+    #howitworks h2 {
+        margin: auto;
+    }
+
+    .overlayable {
+        width: 85%;
+        margin: .8rem auto;
+        /* border: 5px solid rebeccapurple; */
     }
 }
