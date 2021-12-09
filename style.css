@@ -118,6 +118,7 @@ Diaporam of Panorama
 Bullet point
 /////////////////////////////////////////////////////*/
 #bulletPoints {
+    padding: 0;
     background-color: black;
     height: auto;
 }
