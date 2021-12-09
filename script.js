@@ -6,7 +6,21 @@ toggleButton.addEventListener('click', () => {
     console.log('click');
 })
 
-//Panoramic Diaporama
+//Our work
+//Changing the background color of the selected one
+var imgCaption_s = document.getElementsByClassName("img-caption");
+imgCaption_s[0].addEventListener('click', function() {changeElmtBgColor(0)})
+imgCaption_s[1].addEventListener('click', function() {changeElmtBgColor(1)})
+imgCaption_s[2].addEventListener('click', function() {changeElmtBgColor(2)})
+imgCaption_s[3].addEventListener('click', function() {changeElmtBgColor(3)})
+
+function changeElmtBgColor(index) {
+    console.log("click on", index)
+    for(let i=0; i<imgCaption_s.length; i++) {
+        if (i===index) imgCaption_s[i].classList.add("selected")
+        else imgCaption_s[i].classList.remove("selected")
+    }
+}
 
 
 //Testimony vertical slider
