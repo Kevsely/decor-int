@@ -78,6 +78,14 @@ Diaporam of Panorama
     width: 100%;
 }
 
+.hero-text {
+    width: 75%;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1%;
+    border-radius: 20px;
+}
+
 /* Animated scrolling down arrow */
 /* @keyframes bounce {
     0%,
