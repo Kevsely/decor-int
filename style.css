@@ -337,7 +337,6 @@ Our clients
 /////////////////////////////////////////////////////*/
 
 #clients {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,7 +378,7 @@ Our clients
     border-radius: 100%;
     top: 50%;
     transform: translateY(-50%);
-    right: -114px;
+    right: -110px;
     z-index: 1000;
 }
 
@@ -405,7 +404,10 @@ Our clients
 }
 
 .entries .entry .body p {
-    line-height: 1.4em;
+    padding-top: 1rem;
+    /* line-height: 1.4em; */
+    border-top: 4px solid white;
+    text-align: justify;
 }
 
 /*//////////////////////////////////////////////////////
@@ -601,5 +603,42 @@ Phone
     #works div.carousel {
         height: 45vw;
         width: 90vw;
+    }
+
+    /* Our clients */
+    #clients {
+        padding-bottom: 0;
+    }
+
+    #clients h2 {
+        text-align: center;
+    }
+    
+    #clients #timeline .line, .title::before {
+        display: none;
+    }
+
+    #timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #timeline .entries {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #timeline .entries .entry {
+        padding: 1rem 0;
+        margin: auto;
+        float: none;
+        width: 90%;
+    }
+
+    .entry .title {
+        text-align: center;
     }
 }
