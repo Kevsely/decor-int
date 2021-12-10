@@ -3,7 +3,6 @@ var navbar = document.getElementsByClassName("navbar navbar-expand-md fixed-top"
 var toggleButton = document.getElementsByClassName("navbar-toggler")[0];
 toggleButton.addEventListener('click', () => {
     navbar.classList.toggle("nav-expanded");
-    console.log('click');
 })
 
 //Our work
