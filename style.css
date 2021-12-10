@@ -652,4 +652,21 @@ Phone
     .entry .title {
         text-align: center;
     }
+
+    /* Testimony */
+    #testimony {
+        height: 35rem;
+    }
+    .slider-wrap {
+        width: 100%;
+    }
+
+    .slider-wrap .slider {
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .slider-item {
+        width: 80%;
+    }
 }
