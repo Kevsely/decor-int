@@ -581,6 +581,10 @@ Phone
 /////////////////////////////////////////////////////*/
 @media screen and (max-width: 768px) {
     /* Bullet points */
+    #bulletPoints {
+        margin: auto 0;
+    }
+
     #bulletPoints .row div {
         width: 95%;
         margin: 1rem 0;
@@ -591,13 +595,21 @@ Phone
     }
 
     /* What I get / How it works */
+  
     #howitworks h2 {
         margin: auto;
     }
 
+    #howitworks .row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .overlayable {
-        width: 85%;
-        margin: .8rem auto;
+        width: 90vw;
+        height: 90vw;
+        margin: 1rem 0;
     }
 
     /* Our work */
