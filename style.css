@@ -427,12 +427,15 @@ Testimony
 /////////////////////////////////////////////////////*/
  
 #testimony {
-    height: 100vh;
+    height: 85vh;
     position: relative;
 }
 .slider-wrap {
     height: 100%;
-    width: 100%;
+    width: 50%;
+
+    margin: auto;
+    position: relative;
 }
 
 .slider-wrap .slider {
@@ -443,7 +446,7 @@ Testimony
 }
 
 .slider-item {
-    width: 530px;
+    width: 80%;
     padding: 20px 0 25px 30px;
     border-radius: 10px;
     background-color: #ffffff;
