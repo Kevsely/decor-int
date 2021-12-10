@@ -9,17 +9,35 @@ toggleButton.addEventListener('click', () => {
 //Our work
 //Changing the background color of the selected one
 var imgCaption_s = document.getElementsByClassName("img-caption");
+var selected_item = 0;
 imgCaption_s[0].addEventListener('click', function() {changeElmtBgColor(0)})
 imgCaption_s[1].addEventListener('click', function() {changeElmtBgColor(1)})
 imgCaption_s[2].addEventListener('click', function() {changeElmtBgColor(2)})
 imgCaption_s[3].addEventListener('click', function() {changeElmtBgColor(3)})
 
 function changeElmtBgColor(index) {
-    console.log("click on", index)
+    if(index<0) index=3;
+    if(index>3) index=0;
+    selected_item = index;
+
     for(let i=0; i<imgCaption_s.length; i++) {
         if (i===index) imgCaption_s[i].classList.add("selected")
         else imgCaption_s[i].classList.remove("selected")
     }
+}
+
+//Changing the bg color depending on prev and next buttons
+var prev_btn = document.getElementsByClassName("carousel-control-prev")[0]
+var next_btn = document.getElementsByClassName("carousel-control-next")[0]
+
+prev_btn.addEventListener('click', function() {changeElmtBgColor_control(false)})
+next_btn.addEventListener('click', function() {changeElmtBgColor_control(true)})
+
+function changeElmtBgColor_control(button) {
+    if(button) //Next button
+        changeElmtBgColor(selected_item+1)
+    else //Prev button
+        changeElmtBgColor(selected_item-1)
 }
 
 

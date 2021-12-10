@@ -290,7 +290,7 @@ Our work
     height: 100%;
     width: 25%;
 
-    border-right: 2px solid white;
+    border-right: 1px solid white;
 }
 
 #works div.carousel-grid div.grid-element:last-child {
