@@ -79,7 +79,7 @@ Diaporam of Panorama
 }
 
 /* Animated scrolling down arrow */
-@keyframes bounce {
+/* @keyframes bounce {
     0%,
     20%,
     50%,
@@ -113,7 +113,7 @@ Diaporam of Panorama
 
 .bounce {
     animation: bounce 2s infinite;
-}
+} */
 
 /*//////////////////////////////////////////////////////
 Bullet point
@@ -301,12 +301,12 @@ Our work
     position: absolute;
     bottom: 0;
 
-    height: 20%;
+    height: 15%;
     width: 25%;
 }
 
 .caption-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     width: 30%;
 }
@@ -314,7 +314,7 @@ Our work
 .carousel-grid .grid-element .img-caption:hover {
     cursor: pointer;
     color: #f24a00;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4) ;
 }
 
 .caption-container a {
