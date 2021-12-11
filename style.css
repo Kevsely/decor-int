@@ -423,66 +423,58 @@ Our clients
 /*//////////////////////////////////////////////////////
 Our history
 /////////////////////////////////////////////////////*/
-#history {
-    /* height: 100vh */
-}
 
-.counter-block {
-    /* padding-top: 165px; */
-    /* padding-bottom: 100px; */
-  }
-  
-  .counter-block__card {
+.counter-block__card {
     padding: 55px 52px;
     background-image: url("img/dot-dark.jpg");
     border-top: 5px solid #f24a00;
     text-transform: uppercase;
     margin-bottom: 80px;
-  }
-  
-  .counter-block__card-title {
+}
+
+.counter-block__card-title {
     color: #999;
     font-size: 30px;
     font-family: 'Teko', Helvetica, sans-serif;
     line-height: 1;
     margin-bottom: 96px;
-  }
+}
   
-  .counter-block__card-value {
+.counter-block__card-value {
     color: #f24a00;
     font-size: 250px;
     line-height: 1;
     font-family: 'Teko', Helvetica, sans-serif;
     margin-left: -7px;
     margin-bottom: -25px;
-  }
+}
   
-  .counter-block__card-description {
+.counter-block__card-description {
     color: #f24a00;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 600;
-  }
+}
   
-  .counter-block__title {
+.counter-block__title {
     margin-bottom: 66px;
-  }
+}
   
-  .counter-block__item {
+.counter-block__item {
     margin-bottom: 46px;
-  }
+}
   
-  .counter-block__item-value {
+.counter-block__item-value {
     font-family: 'Teko', Helvetica, sans-serif;
     font-size: 100px;
     line-height: 1;
     margin-bottom: 11px;
-  }
+}
   
-  .counter-block__item-text {
+.counter-block__item-text {
     color: #666;
     font-size: 16px;
-  }
+}
 
 /*//////////////////////////////////////////////////////
 Testimony
@@ -645,6 +637,10 @@ Phone
         margin: auto 0;
     }
 
+    #bulletPoints .row {
+        margin: 0;
+    }
+
     #bulletPoints .row div {
         width: 95%;
         margin: 1rem 0;
@@ -661,15 +657,18 @@ Phone
     }
 
     #howitworks .row {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin: 0;
+        width: 100%;
     }
     
     .overlayable {
         width: 90vw;
         height: 90vw;
         margin: 1rem 0;
+    }
+
+    .overlayable h3 {
+        line-height: 1.5;
     }
 
     /* Our work */
@@ -729,7 +728,7 @@ Phone
 
     /* Testimony */
     #testimony {
-        height: 35rem;
+        height: 36rem;
     }
     .slider-wrap {
         width: 100%;
@@ -741,6 +740,6 @@ Phone
     }
 
     .slider-item {
-        width: 80%;
+        width: 70%;
     }
 }
