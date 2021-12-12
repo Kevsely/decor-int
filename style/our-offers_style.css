@@ -172,15 +172,15 @@ Additionnal offers
 /*//////////////////////////////////////////////////////
 Space sample
 /////////////////////////////////////////////////////*/
-#space-sample h2 {
+#space-sample-1 h2 {
     text-align: center;
 }
 
-#space-sample p {
+#space-sample-1 p, #space-sample-2 p {
     text-align: justify;
 }
 
-#space-sample div.col {
+#space-sample-1 div.col, #space-sample-2 div.col {
     padding: 1rem 2rem;
 }
 
@@ -196,7 +196,7 @@ Phone
 ///////////////////////////////////////////////////////
 /////////////////////////////////////////////////////*/
 @media screen and (max-width: 768px) {
-    #space-sample div.col.empty {
+    #space-sample-1 div.col.empty, #space-sample-2 div.col.empty {
         height: 0;
         padding: 0;
     }
