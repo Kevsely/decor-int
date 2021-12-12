@@ -168,3 +168,18 @@ Additionnal offers
     margin-top: 2rem;
     left: 50%;
 }
+
+/*//////////////////////////////////////////////////////
+Space sample
+/////////////////////////////////////////////////////*/
+#space-sample h2 {
+    text-align: center;
+}
+
+#space-sample p {
+    text-align: justify;
+}
+
+#space-sample div.col {
+    padding: 1rem 2rem;
+}
