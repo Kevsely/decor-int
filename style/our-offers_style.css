@@ -184,6 +184,25 @@ Space sample
     padding: 1rem 2rem;
 }
 
+#space-sample-2 input, #space-sample-2 textarea {
+    width: 80%;
+    margin-top: 1rem;
+    background-color: inherit;
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+
+#space-sample-2 input[type="submit"] {
+    width: 20%;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+#space-sample-2 input[type="submit"]:hover {
+    background-color: #f24900;
+    color:white;
+}
+
 /*/////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////
