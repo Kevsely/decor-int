@@ -30,9 +30,18 @@ section {
 }
 
 /* Accordion */
-section button.accordion-item {
+section button.accordion-button {
     color: white!important;
     background-color: black;
+}
+
+section button.accordion-button:not(.collapsed) {
+    background-color: #f24900;
+    
+}
+
+section div.accordion-body {
+    background-color: rgb(36, 36, 36);
 }
 
 section .step_illustration {
