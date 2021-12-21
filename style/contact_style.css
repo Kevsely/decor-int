@@ -1,0 +1,20 @@
+section#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contact #contact_container {
+    width: 60%;
+    display: flex;
+    border: 1px solid red;
+}
+
+section#contact #contact_container #info {
+    width: 50%;
+    background-image: url("../img/rsz_westwing_collection_hussensofa_mila_final_140.jpg");
+}
+
+section#contact #contact_container form {
+    width: 50%;
+}
