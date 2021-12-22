@@ -60,3 +60,15 @@ section#contact #contact_container #info #info-dark-bg {
 section#contact #contact_container form {
     width: 50%;
 }
+
+/* Form */
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
